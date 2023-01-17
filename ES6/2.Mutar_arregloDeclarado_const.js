@@ -1,0 +1,14 @@
+/* Un arreglo es declarado como const s = [5, 7, 2]. 
+Cambia el arreglo a [2, 5, 7] utilizando varias asignaciones de elementos. */
+
+const s = [5, 7, 2];
+function editInPlace() {
+  // Cambia solo el código debajo de esta línea
+
+  s[0] = 2;
+  s[1] = 5;
+  s[2] = 7;
+     console.log(s);
+  // Cambia solo el código encima de esta línea
+}
+console.log(editInPlace());
